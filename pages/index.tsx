@@ -1,9 +1,9 @@
 import { NextPage } from 'next'
 import * as React from 'react'
-import { HomePage } from '../components/home/HomePage'
+import { Ld45 } from '../components/ld45/Ld45'
 
 const Page: NextPage = () => {
-  return <HomePage />
+  return <Ld45 />
 }
 
 export default Page

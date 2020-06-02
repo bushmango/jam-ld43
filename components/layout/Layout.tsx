@@ -16,11 +16,9 @@ export const Layout = (props: { children: React.ReactNode; title: string }) => {
       </Head>
 
       <div>
-        <div>StevieBushman.com</div>
-        <div>stevie@steviebushman.com</div>
-
         {props.children}
 
+        <hr />
         <div>&copy; Stevie Bushman</div>
         <div>stevie@steviebushman.com</div>
       </div>
